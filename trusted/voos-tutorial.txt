@@ -1,0 +1,48 @@
+
+Colunas para Agrupamento
+
+UniqueCarrier: Companhia aérea responsável pelo voo
+Date: data do voo (agrupamento por faixa de tempo)
+
+Identificador Único
+
+TailNum: Número na cauda do avião (como se fosse uma placa de carro)
+
+
+Dado normal
+
+Diverted: voos que desviaram da rota padrão
+ArrTime: Tempo de chegada local
+
+
+
+
+
+
+
+
+DayOfWeek
+DepTime
+CRSDepTime
+ArrTime
+CRSArrTime
+UniqueCarrier
+FlightNum
+TailNum
+ActualElapsedTime
+CRSElapsedTime
+AirTime
+ArrDelay
+DepDelay
+Origin
+Dest
+Distance
+TaxiIn
+TaxiOut
+Diverted
+CarrierDelay
+WeatherDelay
+NASDelay
+SecurityDelay
+LateAircraftDelay
+Date
