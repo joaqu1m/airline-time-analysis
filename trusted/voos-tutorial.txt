@@ -2,7 +2,7 @@
 Colunas para Agrupamento
 
 UniqueCarrier: Companhia aérea responsável pelo voo
-Date: data do voo (agrupamento por faixa de tempo)
+Data (agrupamento por faixa de tempo)
 
 Identificador Único
 
