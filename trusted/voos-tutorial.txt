@@ -1,48 +1,42 @@
+Colunas para Agrupamento em ordem de importância:
 
-Colunas para Agrupamento
-
-UniqueCarrier: Companhia aérea responsável pelo voo
+CompanhiaResponsavel
+DiaSemana (agrupamento por fim de semana)
 Data (agrupamento por faixa de tempo)
+AeroportoOrigem
+AeroportoDestino
 
-Identificador Único
+Dado normal:
 
-TailNum: Número na cauda do avião (como se fosse uma placa de carro)
-
-
-Dado normal
-
-Diverted: voos que desviaram da rota padrão
-ArrTime: Tempo de chegada local
-
-
-
-
-
-
-
-
-DayOfWeek
-DepTime
-CRSDepTime
-ArrTime
-CRSArrTime
-UniqueCarrier
-FlightNum
-TailNum
-ActualElapsedTime
-CRSElapsedTime
-AirTime
-ArrDelay
-DepDelay
-Origin
-Dest
-Distance
+Distancia
+DesviouRota
+HoraPartida
+HoraPartidaPrevista
+HoraChegada
+HoraChegadaPrevista
+TempoTotalPrevisto
+TempoTotal
+TempoVoando
 TaxiIn
 TaxiOut
-Diverted
-CarrierDelay
-WeatherDelay
-NASDelay
-SecurityDelay
-LateAircraftDelay
-Date
+AtrasoChegada
+AtrasoPartida
+AtrasoCompanhia
+AtrasoClimaTempo
+AtrasoSistemaAereo
+AtrasoSeguranca
+AtrasoAeronave
+
+CarrierDelay: Atrasos causados diretamente pela companhia aérea. Isso pode incluir problemas operacionais, como a tripulação não estar disponível, atrasos em procedimentos de embarque, manutenção inesperada da aeronave ou a espera por passageiros de voos de conexão.
+
+NASDelay: Atrasos relacionados à infraestrutura do sistema de controle aéreo ou ao tráfego aéreo geral, como congestionamento de tráfego aéreo, problemas de controle de tráfego aéreo ou limitações de capacidade nos aeroportos. Isso inclui atrasos não relacionados à companhia aérea ou ao tempo, mas sim à organização do tráfego aéreo.
+
+
+'DiaSemana', 'CompanhiaResponsavel', 'NumeroAeronave', 'TempoTotal',
+'TempoTotalPrevisto', 'TempoVoando', 'AtrasoChegada', 'AtrasoPartida',
+'AeroportoOrigem', 'AeroportoDestino', 'Distancia', 'TaxiIn', 'TaxiOut',
+'DesviouRota', 'AtrasoCompanhia', 'AtrasoClimaTempo',
+'AtrasoSistemaAereo', 'AtrasoSeguranca', 'AtrasoAeronave', 'Data',
+'HoraPartida', 'HoraPartidaMinutos', 'HoraPartidaPrevista',
+'HoraPartidaPrevistaMinutos', 'HoraChegada', 'HoraChegadaMinutos',
+'HoraChegadaPrevista', 'HoraChegadaPrevistaMinutos'
